@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "feature/login.feature",glue = "Definitions")
+@CucumberOptions(features = "feature\\LoginHead.feature",glue = "Definitions")
 public class LoginTest {
 
 }
